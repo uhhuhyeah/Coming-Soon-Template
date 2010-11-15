@@ -56,6 +56,9 @@ header {
   margin-bottom:5em;
 }
 
+h1 {font-size:2em;}
+h2 {font-size:1.5em;}
+
 #top-uhy-logo {
   float:left;
   margin:0.625em;
@@ -94,11 +97,11 @@ a.top-social-link {
 }
 
 /*Index*/
-#intro-copy {
+.intro-copy {
   font-family:helvetica, sans-serif;
-  font-size:2em;
   font-style:italic;
   font-weight:400;
+  text-align:center;
   color:#232323;
   text-shadow: 1px 1px 1px rgba(35,35,35,.2);
   padding:0.375em;
@@ -106,7 +109,37 @@ a.top-social-link {
   border-bottom:1px solid #ebebeb;
 }
 
+#email-form-holder {
+  padding:1em;
+  background:#3d3e42;
+  -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 8px rgba(0,0,0,.2);
+  box-shadow: 0 1px 8px rgba(0,0,0,.2);
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+}
 
+#subscribe_email {
+  font-size:1.75em;
+  padding:0.0625em 0;
+}
+
+.submit {
+  background:#eee;
+  color:#232323;
+  padding:0.0625em 0.3125em;
+  font-size:0.875em;
+  font-size:1.75em;
+  border:2px solid #fff;
+  margin-top:-3px;
+}
+
+.submit:hover {
+  background:#fff;
+  cursor:pointer;
+  color:#db0096;
+}
 
 
 
