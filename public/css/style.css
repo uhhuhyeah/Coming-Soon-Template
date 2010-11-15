@@ -3,13 +3,11 @@
 table { border-collapse:collapse; border-spacing:0 }
 fieldset, img { border:0 }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
-ol, ul, li { list-style:none }
 caption, th { text-align:left }
 h1, h2, h3, h5, h5, h6 { font-size:100% }
 q:before, q:after { content:''} 
 strong { font-weight: bold }
 em { font-style: italic }
-ol, ul, li { list-style:none } 
 * a { position:relative } 
 a { outline:none;text-decoration:none;color:inherit } 
 a img { border:none }
@@ -23,6 +21,8 @@ body {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  font-family:helvetica, sans-serif;
+  
 }                  
 
 article, aside, details, figcaption, figure,
@@ -92,14 +92,12 @@ a.top-social-link {
 
 
 #main {
-  width:42.5em;
+  width:50em;
   margin:0 auto;
 }
 
 /*Index*/
 .intro-copy {
-  font-family:helvetica, sans-serif;
-  font-style:italic;
   font-weight:400;
   text-align:center;
   color:#232323;
@@ -107,6 +105,28 @@ a.top-social-link {
   padding:0.375em;
   margin-bottom:0.75em;
   border-bottom:1px solid #ebebeb;
+}
+
+h1.intro-copy {
+  font-style:italic;
+}
+
+#inline-logo {
+  background:#ccc;
+  color:#fff;
+  text-shadow:none;
+  font-style:normal;
+  font-weight:800;
+  padding:0.3125em;
+  font-size:0.8em;
+}
+
+.feature {
+  font-weight:400;
+  color:#232323;
+  text-shadow: 1px 1px 1px rgba(35,35,35,.2);
+  padding:0.375em;
+  margin-bottom:0.75em;
 }
 
 #email-form-holder {
@@ -141,7 +161,26 @@ a.top-social-link {
   color:#db0096;
 }
 
+#screenshot {
+  background: url(/images/iphone.png) 0 0 no-repeat;
+  width: 278px;
+	height: 486px;
+	float:left;
+}
 
+#features {
+  width:37.5em;
+  margin:0 auto;
+}
+
+#feature-points {
+  float:right;
+}
+
+ul {
+  list-style-type:square;
+  color:#ccc;
+}
 
 
 
