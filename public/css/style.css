@@ -39,11 +39,6 @@ footer, header, hgroup, menu, nav, section {
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
 
-
-
-
-
-
  /* Primary Styles
     Author: UHY
  */
@@ -56,8 +51,8 @@ header {
   margin-bottom:5em;
 }
 
-h1 {font-size:2em;}
-h2 {font-size:1.5em;}
+h1 {font-size:1.8em;}
+h2 {font-size:1.2em;}
 
 #top-uhy-logo {
   float:left;
@@ -74,7 +69,7 @@ a.top-social-link {
 }
 
 #main-logo {
-  width:300px;
+  width:18.75em;
   margin:0 auto;
   margin-top:-4.0625em;
   background:#ccc;
@@ -93,7 +88,8 @@ a.top-social-link {
 
 
 #main {
-  width:50em;
+/*  width:50em;*/
+width:600px;
   margin:0 auto;
 }
 
@@ -110,6 +106,10 @@ a.top-social-link {
 
 h1.intro-copy {
   font-style:italic;
+}
+
+h2.intro-copy {
+  border-top:1px solid #ebebeb;
 }
 
 #inline-logo {
@@ -132,6 +132,7 @@ h1.intro-copy {
 
 #email-form-holder {
   padding:1em;
+  margin-top:1em;
   background:#3d3e42;
   -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.2);
   -moz-box-shadow: 0 1px 8px rgba(0,0,0,.2);
@@ -144,6 +145,7 @@ h1.intro-copy {
 #subscribe_email {
   font-size:1.75em;
   padding:0.0625em 0;
+  width:435px;
 }
 
 .submit {
@@ -152,7 +154,7 @@ h1.intro-copy {
   padding:0.0625em 0.3125em;
   font-size:0.875em;
   font-size:1.75em;
-  border:2px solid #fff;
+  border:2px solid #eee;
   margin-top:-3px;
 }
 
@@ -160,6 +162,8 @@ h1.intro-copy {
   background:#fff;
   cursor:pointer;
   color:#db0096;
+  border:2px solid #ccc;
+  
 }
 
 #screenshot {
@@ -183,6 +187,30 @@ ul {
   color:#ccc;
 }
 
+/*Footer*/
+footer {
+  margin-top:5em;
+  background:#f4f4f4;
+  font-size:0.8em;
+  padding:0.2em;
+  -webkit-box-shadow: 0 -1px 8px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 -1px 8px rgba(0,0,0,.2);
+  box-shadow: 0 -1px 8px rgba(0,0,0,.2);
+}
+
+footer p {
+  color:#232323;
+  margin:0.8em;
+  text-align:center;
+}
+
+footer #small {
+  font-size:0.5em;
+}
+
+footer a:hover {
+  color:#db0096;
+}
 
 
 /*
