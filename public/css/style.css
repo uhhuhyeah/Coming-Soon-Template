@@ -170,21 +170,18 @@ h2.intro-copy {
   background: url(/images/iPhone.jpg) 0 0 no-repeat;
   width: 278px;
 	height: 486px;
-	float:left;
+	position:relative;
+}
+
+#screenshot-image {
+  position:absolute;
+  top:72px;
+  left:44px;
 }
 
 #features {
-  width:37.5em;
+  width:278px;
   margin:0 auto;
-}
-
-#feature-points {
-  float:right;
-}
-
-ul {
-  list-style-type:square;
-  color:#ccc;
 }
 
 /*Footer*/
