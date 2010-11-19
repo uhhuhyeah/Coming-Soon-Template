@@ -22,7 +22,6 @@ body {
   vertical-align:baseline;
   background:transparent;
   font-family:helvetica, sans-serif;
-  
 }                  
 
 article, aside, details, figcaption, figure,
@@ -164,18 +163,10 @@ h1.intro-copy {
 }
 
 #screenshot {
-  background: url(/images/iphone.png) 0 0 no-repeat;
+  background: url(/images/iPhone.jpg) 0 0 no-repeat;
   width: 278px;
 	height: 486px;
 	float:left;
-	position:relative;
-}
-
-#app-logo {
-  position:absolute;
-  bottom:30px;
-  right:-10px;
-  
 }
 
 #features {
