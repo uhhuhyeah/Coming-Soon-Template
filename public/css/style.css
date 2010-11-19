@@ -48,7 +48,7 @@ header {
   height:2.5em;
   /*background:#3d3e42;*/
   background:#f4f4f4;
-  margin-bottom:5em;
+  margin-bottom:3.5em;
 }
 
 h1 {font-size:1.8em;}
@@ -64,26 +64,12 @@ h2 {font-size:1.2em;}
   margin:0.3125em;
 }
 
-a.top-social-link {
-  
-}
-
 #main-logo {
   width:18.75em;
   margin:0 auto;
-  margin-top:-4.0625em;
-  background:#ccc;
-  padding:0.1875em;
+  margin-top:-4.0625em; 
   padding-top:0.875em;
-  -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.2);
-  -moz-box-shadow: 0 1px 8px rgba(0,0,0,.2);
-  box-shadow: 0 1px 8px rgba(0,0,0,.2);
-  -webkit-border-bottom-left-radius: 0.3125em;
-  -moz-border-radius-bottomleft: 0.3125em;
-  border-bottom-left-radius: 0.3125em;
-  -webkit-border-bottom-right-radius: 0.3125em;
-  -moz-border-radius-bottomright: 0.3125em;
-  border-bottom-right-radius: 0.3125em;
+
 }
 
 
