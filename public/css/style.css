@@ -52,7 +52,8 @@ footer, header, hgroup, menu, nav, section {
 header {
   width:100%;
   height:2.5em;
-  background:#3d3e42;
+  /*background:#3d3e42;*/
+  background:#f4f4f4;
   margin-bottom:5em;
 }
 
@@ -77,8 +78,9 @@ a.top-social-link {
   width:300px;
   margin:0 auto;
   margin-top:-4.0625em;
-  background:#3d3e42;
-  padding:0.875em;
+  background:#ccc;
+  padding:0.1875em;
+  padding-top:0.875em;
   -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.2);
   -moz-box-shadow: 0 1px 8px rgba(0,0,0,.2);
   box-shadow: 0 1px 8px rgba(0,0,0,.2);
@@ -166,6 +168,14 @@ h1.intro-copy {
   width: 278px;
 	height: 486px;
 	float:left;
+	position:relative;
+}
+
+#app-logo {
+  position:absolute;
+  bottom:30px;
+  right:-10px;
+  
 }
 
 #features {
