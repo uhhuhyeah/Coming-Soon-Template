@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'erb'
 require 'sinatra/static_assets'
-require 'sqlite3'
+# require 'sqlite3'
 require 'dm-core'
 require 'dm-migrations'
 
