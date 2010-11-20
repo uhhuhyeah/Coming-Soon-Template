@@ -1,4 +1,4 @@
 dm-core --version 0.10.1
-dm-postgres-adapter --version 0.10.1
+dm-postgres-adapter
 dm-migrations --version 0.10.1
 sinatra-static-assets
