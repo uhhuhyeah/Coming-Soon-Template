@@ -30,7 +30,6 @@ end
 DataMapper.finalize
 
 get '/' do
-  @list = MailingList.all.count
   erb :index
 end
 
