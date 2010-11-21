@@ -41,6 +41,12 @@
     <div id="main">
 			<%= yield %>
     </div>
+
+		<div id="social-for-mobile">
+			<%= link_to image_tag('images/email_26_dark.png'), 'mailto:david@twodaystodos.com', :class => 'top-social-link' %>
+			<%= link_to image_tag('images/facebook_26_dark.png'), 'http://www.facebook.com/pages/Uh-Huh-Yeah/101176768856', :class => 'top-social-link' %>
+			<%= link_to image_tag('images/twitter_26_dark.png'), 'http://twitter.com/TwoDaysToDos', :class => 'top-social-link' %>
+		</div>
     
     <footer>
 			<p><strong>TwoDaysToDos</strong> - proudly built by <a href="http://uhhuhyeah.com/">Uh Huh Yeah</a></p>
@@ -48,8 +54,6 @@
     </footer>
   </div> <!--! end of #container -->
 
-  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
-       change the UA-XXXXX-X to be your site's ID -->
   <script>
    var _gaq = [['_setAccount', 'UA-6668516-13'], ['_trackPageview']];
    (function(d, t) {

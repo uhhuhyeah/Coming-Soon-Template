@@ -72,13 +72,11 @@ h2 {font-size:1.2em;}
   margin:0 auto;
   margin-top:-4.0625em; 
   padding-top:0.875em;
-
 }
 
 
 #main {
-/*  width:50em;*/
-width:600px;
+  max-width:600px;
   margin:0 auto;
 }
 
@@ -198,6 +196,7 @@ footer a:hover {
   color:#db0096;
 }
 
+#social-for-mobile {display:none;}
 
 /*
  * Media queries for responsive design
@@ -217,11 +216,15 @@ footer a:hover {
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
    Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 480px) {
-  
-  
-  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
-     j.mp/textsizeadjust 
-  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+  body {width:320px;}
+  header {display:none;}
+  #main {width:300px;}
+  #main-logo {margin-top:0em;}
+  #email-form-holder {text-align:center;}
+  #subscribe_email {width:260px;font-size:1.5em;}
+  .submit {font-size:1.5em; margin-top:0.75em;}
+  #social-for-mobile {display:block; text-align:center; margin:0.75em; margin-top:2em;}
+  #social-for-mobile a {margin:0.5em;}
 }
 
 
