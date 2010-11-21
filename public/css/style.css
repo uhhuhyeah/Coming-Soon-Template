@@ -203,14 +203,12 @@ footer a:hover {
  * These follow after primary styles so they will successfully override. 
  */
 
-@media all and (orientation:portrait) { 
-  /* Style adjustments for portrait mode goes here */
-  
-}
 
-@media all and (orientation:landscape) { 
-  /* Style adjustments for landscape mode goes here */
-  
+/*iPad*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #email-form-holder {text-align:center;}
+  .submit {font-size:1.5em; margin-top:0.75em;}
+  body {width:768px;}
 }
 
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
